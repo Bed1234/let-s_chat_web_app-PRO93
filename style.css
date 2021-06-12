@@ -6,7 +6,7 @@ html, body
 
 body
 {
-	background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+	background: linear-gradient(to bottom, #ff66ff 0%, #ff9999 100%);
     text-align: left;
 }
 
