@@ -1,16 +1,16 @@
-//YOUR FIREBASE LINKS
-
+// Your web app's Firebase configuration
 var firebaseConfig = {
-      apiKey: "AIzaSyCnpiFpQKuQc1ce9YOrJCeERMprP9E3pA0",
-      authDomain: "kwitter-49455.firebaseapp.com",
-      databaseURL: "https://kwitter-49455-default-rtdb.firebaseio.com",
-      projectId: "kwitter-49455",
-      storageBucket: "kwitter-49455.appspot.com",
-      messagingSenderId: "729869635327",
-      appId: "1:729869635327:web:5ffc4b7a7d63222e8f86ca"
+      apiKey: "AIzaSyA8EepdGd8on_DGn09k_OIYn6jfNPpY74c",
+      authDomain: "let-s-chat-web-app-85e53.firebaseapp.com",
+      databaseURL: "https://let-s-chat-web-app-85e53-default-rtdb.firebaseio.com",
+      projectId: "let-s-chat-web-app-85e53",
+      storageBucket: "let-s-chat-web-app-85e53.appspot.com",
+      messagingSenderId: "616707750010",
+      appId: "1:616707750010:web:bdcac789be554b4a06a3c3"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
+    
 
 
   user_name = localStorage.getItem("user_name");
@@ -69,6 +69,15 @@ function logout() {
       localStorage.removeItem("user_name");
       localStorage.removeItem("room_name");
       window.location.replace("index.html");
+   
+   }
+   
+
+   
+function logout2() {
+      localStorage.removeItem("user_name");
+      localStorage.removeItem("room_name");
+      window.location="index.html";
    
    }
    
