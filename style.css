@@ -2,6 +2,7 @@ html, body
 {
   height: 100%;
   margin: 0;
+ 
 }
 
 body
@@ -50,6 +51,8 @@ body
 #logout2
 {
 	font-size: 20px; float: right;
+	margin-top: 140px;
+
 }
 
 
